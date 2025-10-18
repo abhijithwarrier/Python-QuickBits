@@ -1,0 +1,8 @@
+
+[service]
+name = "api"
+retries = 3
+
+[service.timeouts]
+connect = 2.5
+read = 5.0
